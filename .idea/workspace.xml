@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfc13073-c0bd-4ce6-95ea-5a42b83620fc" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bfc13073-c0bd-4ce6-95ea-5a42b83620fc" name="Changes" comment="Maintainability fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calcolatrice/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calcolatrice/calculator-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +70,7 @@
     "Maven.Calcolatrice [install,--non-recursive].executor": "Run",
     "Maven.Calcolatrice [install].executor": "Run",
     "Maven.HelloApplication.executor": "Run",
-    "Maven.Main.executor": "Debug",
+    "Maven.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -143,8 +134,33 @@
       <workItem from="1728741565784" duration="129000" />
       <workItem from="1728742025968" duration="245000" />
       <workItem from="1729168024727" duration="180000" />
-      <workItem from="1729168211297" duration="3661000" />
+      <workItem from="1729168211297" duration="4731000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1729172107985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729172107985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1729172179368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729172179368</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Maintainability fix">
+      <option name="closed" value="true" />
+      <created>1729173942855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729173942855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,8 +168,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Refactoring" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Maintainability fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maintainability fix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

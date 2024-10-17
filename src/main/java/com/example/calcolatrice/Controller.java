@@ -1,23 +1,23 @@
 package com.example.calcolatrice;
 
 public class Controller {
-    private static double Addition(double a, double b) {
+    private static double addition(double a, double b) {
         return a + b;
     }
 
-    private static double Subtraction(double a, double b) {
+    private static double subtraction(double a, double b) {
         return a - b;
     }
 
-    private static double Multiplication(double a, double b) {
+    private static double multiplication(double a, double b) {
         return a * b;
     }
 
-    private static double Division(double a, double b) {
+    private static double division(double a, double b) {
         return a / b;
     }
 
-    private static double Power(double a, double b) {
+    private static double power(double a, double b) {
         return Math.pow(a, b);
     }
 
@@ -25,21 +25,22 @@ public class Controller {
         Operation operation = new Operation(a, b);
         switch (operator) {
             case "+":
-                operation.setResult(Addition(operation.getOperand1(), operation.getOperand2()));
+                operation.setResult(addition(operation.getOperand1(), operation.getOperand2()));
                 break;
             case "-":
-                operation.setResult(Subtraction(operation.getOperand1(), operation.getOperand2()));
+                operation.setResult(subtraction(operation.getOperand1(), operation.getOperand2()));
                 break;
             case "*":
-                operation.setResult(Multiplication(operation.getOperand1(), operation.getOperand2()));
+                operation.setResult(multiplication(operation.getOperand1(), operation.getOperand2()));
                 break;
             case "/":
-                operation.setResult(Division(operation.getOperand1(), operation.getOperand2()));
+                operation.setResult(division(operation.getOperand1(), operation.getOperand2()));
                 break;
             case "^":
-                operation.setResult(Power(operation.getOperand1(), operation.getOperand2()));
+                operation.setResult(power(operation.getOperand1(), operation.getOperand2()));
                 break;
-
+            default:
+                break;
         }
         return operation;
     }

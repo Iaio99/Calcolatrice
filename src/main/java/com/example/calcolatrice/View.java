@@ -8,12 +8,24 @@ public class View {
     private final Controller controller = new Controller();
     @FXML
     private TextField display;
-    @FXML
-    private Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9;
-    @FXML
-    private Button btnAdd, btnSubtract, btnMultiply, btnDivide;
-    @FXML
-    private Button btnEquals, btnClear, btnPower, btnSqrt;
+    private Button btn0;
+    private Button btn1;
+    private Button btn2;
+    private Button btn3;
+    private Button btn4;
+    private Button btn5;
+    private Button btn6;
+    private Button btn7;
+    private Button btn8;
+    private Button btn9;
+    private Button btnAdd;
+    private Button btnSubtract;
+    private Button btnMultiply;
+    private Button btnDivide;
+    private Button btnEquals;
+    private Button btnClear;
+    private Button btnPower;
+    private Button btnSqrt;
     private double firstOperand = 0;
     private String operator = "";
 
