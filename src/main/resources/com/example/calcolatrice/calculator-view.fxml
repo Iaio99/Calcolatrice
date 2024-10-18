@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.VBox?>
-<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" alignment="CENTER" style="-fx-padding: 20;">
-  <TextField fx:id="display" prefWidth="200" editable="false" style="-fx-font-size: 24;"/>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="398.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/23"
+            fx:controller="com.example.calcolatrice.View">
+    <TextField fx:id="display" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="242.0"
+               style="-fx-font-size: 24;"/>
+    <Button layoutX="14.0" layoutY="142.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="7"/>
+    <Button layoutX="78.0" layoutY="142.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="8"/>
+    <Button layoutX="142.0" layoutY="142.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="9"/>
+    <Button layoutX="206.0" layoutY="78.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="/"/>
+    <Button layoutX="14.0" layoutY="206.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="4"/>
+    <Button layoutX="78.0" layoutY="206.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="5"/>
+    <Button layoutX="142.0" layoutY="206.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="6"/>
+    <Button layoutX="206.0" layoutY="142.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="*"/>
+    <Button layoutX="14.0" layoutY="270.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="1"/>
+    <Button layoutX="78.0" layoutY="270.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="2"/>
+    <Button layoutX="142.0" layoutY="270.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="3"/>
+    <Button layoutX="206.0" layoutY="206.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="-"/>
 
-  <GridPane hgap="10" vgap="10">
-    <Button text="7" fx:id="btn7"/>
-    <Button text="8" fx:id="btn8"/>
-    <Button text="9" fx:id="btn9"/>
-    <Button text="/" fx:id="btnDivide"/>
-
-    <Button text="4" fx:id="btn4"/>
-    <Button text="5" fx:id="btn5"/>
-    <Button text="6" fx:id="btn6"/>
-    <Button text="*" fx:id="btnMultiply"/>
-
-    <Button text="1" fx:id="btn1"/>
-    <Button text="2" fx:id="btn2"/>
-    <Button text="3" fx:id="btn3"/>
-    <Button text="-" fx:id="btnSubtract"/>
-
-    <Button text="0" fx:id="btn0"/>
-    <Button text="C" fx:id="btnClear"/>
-    <Button text="√" fx:id="btnSqrt"/> <!-- Bottone per la radice quadrata -->
-    <Button text="^" fx:id="btnPower"/> <!-- Bottone per la potenza -->
-    <Button text="=" fx:id="btnEquals"/> <!-- Bottone per uguale -->
-    <Button text="+" fx:id="btnAdd"/>
-  </GridPane>
-</VBox>
+    <Button layoutX="14.0" layoutY="334.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="110.0" text="0"/>
+    <Button layoutX="142.0" layoutY="78.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="^"/>
+    <Button layoutX="206.0" layoutY="334.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="="/>
+    <Button layoutX="206.0" layoutY="270.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="+"/>
+    <Button layoutX="78.0" layoutY="78.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="C"/>
+    <Button layoutX="142.0" layoutY="334.0" onAction="#handleButtonPress" prefHeight="50.0" prefWidth="50.0" text="."/>
+</AnchorPane>
