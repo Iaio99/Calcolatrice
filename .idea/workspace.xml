@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfc13073-c0bd-4ce6-95ea-5a42b83620fc" name="Changes" comment="Refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bfc13073-c0bd-4ce6-95ea-5a42b83620fc" name="Changes" comment="Updated dependencies">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcolatrice/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calcolatrice/calculator-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calcolatrice/calculator-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,38 +62,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JAR Application.Calcolatrice-1.0-SNAPSHOT.jar.executor": "Run",
-    "Maven.Calcolatrice [compile].executor": "Run",
-    "Maven.Calcolatrice [install,--non-recursive].executor": "Run",
-    "Maven.Calcolatrice [install].executor": "Run",
-    "Maven.HelloApplication.executor": "Run",
-    "Maven.Main.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/giuliano/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6-linux.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JAR Application.Calcolatrice-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Calcolatrice [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Calcolatrice [install,--non-recursive].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Calcolatrice [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/giuliano/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6-linux.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.calcolatrice.Main" />
@@ -177,6 +172,7 @@
       <workItem from="1729190247849" duration="1585000" />
       <workItem from="1729244675445" duration="2000" />
       <workItem from="1729247575060" duration="2180000" />
+      <workItem from="1729253228202" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <option name="closed" value="true" />
@@ -226,7 +222,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729174595221</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final style">
+      <option name="closed" value="true" />
+      <created>1729253551834</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729253551834</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1729253563712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729253563712</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated dependencies">
+      <option name="closed" value="true" />
+      <created>1729253573853</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729253573853</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,8 +256,10 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Maintainability fix" />
+    <MESSAGE value="Final style" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Updated dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
